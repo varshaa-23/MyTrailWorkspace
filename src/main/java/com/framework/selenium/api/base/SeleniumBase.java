@@ -658,7 +658,7 @@ public class SeleniumBase extends Reporter implements Browser, Element  {
 			}
 		} catch (NoSuchElementException e) {
 			reportStep("The Element with locator:" + locatorType + " Not Found with value: " + value + "\n"
-					+ e.getMessage(), "fail");
+					+ e.getMessage()+e, "fail");
 		} catch (Exception e) {
 			reportStep("The Element with locator:" + locatorType + " Not Found with value: " + value + "\n"
 					+ e.getMessage(), "fail");
