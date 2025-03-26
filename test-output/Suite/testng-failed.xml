@@ -11,7 +11,7 @@
           <include name="startTestCase"/>
           <include name="setUpClass"/>
           <include name="postCondition"/>
-          <include name="runLogin" invocation-numbers="0"/>
+          <include name="runLogin" invocation-numbers="0 0 0"/>
           <include name="tearDownClass"/>
           <include name="startReport"/>
           <include name="setValues"/>

@@ -13,7 +13,7 @@ import org.testng.annotations.ITestAnnotation;
 public class RetryEngine implements IRetryAnalyzer,IAnnotationTransformer,ITestListener {//ITestListener--not used in ou project just for interview.
 	 
     private int count = 0;
-    private static int maxTry = 0;
+    private static int maxTry = 2;
  
     public boolean retry(ITestResult iTestResult) {
         if (!iTestResult.isSuccess()) {                     
