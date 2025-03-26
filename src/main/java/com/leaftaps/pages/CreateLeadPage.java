@@ -5,7 +5,7 @@ import com.framework.testng.api.base.ProjectSpecificMethods;
 
 public class CreateLeadPage  extends ProjectSpecificMethods{
 	public CreateLeadPage enterCompanyName(String comName) {
-		clearAndType(locateElement(Locators.XPATH, "//input[@id='createLeadForm_companyNa']"), comName);
+		clearAndType(locateElement(Locators.XPATH, "//input[@id='createLeadForm_companyName']"), comName);
 		reportStep(comName+" company name is entered successfully","pass");
 		return this;
 	}

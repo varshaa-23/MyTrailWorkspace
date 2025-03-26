@@ -14,7 +14,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
 public class DriverInstance  extends AbstractTestNGCucumberTests{
-
+	
 	private static final ThreadLocal<RemoteWebDriver> remoteWebdriver = new ThreadLocal<RemoteWebDriver>();//chromedriver
 	private static final ThreadLocal<WebDriverWait> wait = new  ThreadLocal<WebDriverWait>();//explicitwait
 
