@@ -29,8 +29,8 @@ public class RetryEngine implements IRetryAnalyzer,IAnnotationTransformer,ITestL
         }
         return false;
     }
-    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
-    	    annotation.setRetryAnalyzer(com.framework.testng.api.base.RetryEngine.class);
-    	  }
- 
+//    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+//    	    annotation.setRetryAnalyzer(com.framework.testng.api.base.RetryEngine.class);
+//    	  }
+// 
 }
